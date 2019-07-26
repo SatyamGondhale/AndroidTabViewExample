@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".TabTwo">
+
+    <!-- TODO: Update blank fragment layout -->
+ <RadioGroup
+     android:id="@+id/radioGroup"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+     <RadioButton
+         android:id="@+id/itbranch"
+         android:text="IT"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" />
+     <RadioButton
+         android:id="@+id/computerbranch"
+         android:text="Computer"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" />
+     <RadioButton
+         android:id="@+id/entcbranch"
+         android:text="ENTC"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" />
+     <RadioButton
+         android:id="@+id/civilbranch"
+         android:text="Civil"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" />
+     <RadioButton
+         android:id="@+id/mechbranch"
+         android:text="Mechanical"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" />
+ </RadioGroup>
+
+</LinearLayout>
